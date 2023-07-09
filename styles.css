@@ -44,14 +44,14 @@ body {
 
 .rating__star-input:checked,
 .rating__star-input:hover {
-  background-image: url("/images/svg_6.svg");
+  background-image: url("./images/svg_6.svg");
   background-size: 40px 40px;
   background-repeat: repeat-x;
 }
 
 .rating__star-input:hover ~ .rating__star-input {
-  background-image: url("/images/svg_1.svg");
-  background-image: url("/images/svg_1.svg");
+  background-image: url("./images/svg_1.svg");
+  background-image: url("./images/svg_1.svg");
   background-size: 40px 40px;
 }
 
@@ -60,7 +60,7 @@ body {
   width: 200px;
   height: 40px;
   position: relative;
-  background-image: url("/images/svg_1.svg");
+  background-image: url("./images/svg_1.svg");
   background-size: 40px 40px;
 }
 
@@ -542,7 +542,7 @@ progress::-moz-progress-bar {
   position: absolute;
   width: 64px;
   height: 64px;
-  background-image: url("/images/Vlevosvg.svg");
+  background-image: url("./images/Vlevosvg.svg");
   background-size: 40px 50px;
   background-repeat: no-repeat;
 }
@@ -554,7 +554,7 @@ progress::-moz-progress-bar {
   left: 10px;
   width: 64px;
   height: 64px;
-  background-image: url("/images/Vlevosvg.svg");
+  background-image: url("./images/Vlevosvg.svg");
   background-size: 40px 50px;
   background-repeat: no-repeat;
 }
@@ -566,7 +566,7 @@ progress::-moz-progress-bar {
   right: 10px;
   width: 64px;
   height: 64px;
-  background-image: url("/images/Vlevosvg.svg");
+  background-image: url("./images/Vlevosvg.svg");
   background-size: 40px 50px;
   background-repeat: no-repeat;
   transform: rotate(-180deg);
@@ -717,12 +717,12 @@ progress::-moz-progress-bar {
     background-color: transparent;
     width: 25px;
     height: 25px;
-    background-image: url("/images/open-menu-btn.svg");
+    background-image: url("./images/open-menu-btn.svg");
     background-repeat: no-repeat;
   }
 
   .nav-button-menu--active {
-    background-image: url("/images/close-menu-btn.svg");
+    background-image: url("./images/close-menu-btn.svg");
   }
 
   .aside-header {
