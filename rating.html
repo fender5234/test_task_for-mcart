@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Задача звездный рейтинг</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="description">
+        <p>
+          Способ решения задачи с использованием чистого CSS. И тегов инпут с
+          типом радио.
+        </p>
+        <p>
+          Чтобы указать определенное количество звезд со стороны кода, например
+          в JS-файле необходимо назначить атрибут checked нужной
+          радио-кнопке.Например если назначить атрибут checked кнопке с id="3"
+          то будет гореть 3 звезды.
+        </p>
+        <p>
+          Из плюсов простота решения. Это решение в плане стилей можно назвать
+          css трюком так как используеться эффект повтора background-repeat.<br />
+          Но я думаю важно отметить что решение рабочее легко встраиваеться в
+          форму и будет отправлять данные<br />
+          о рейтинге.
+        </p>
+        <p>
+          <em>
+            P.S. Вообще мне нравятся решения которые можно брать исходя из
+            встроенных возможностей браузера.
+          </em>
+        </p>
+      </div>
+      <fieldset class="rating">
+        <legend class="rating__title">Звездный рейтинг</legend>
+        <div class="rating__input-group">
+          <input
+            class="rating__star-input"
+            type="radio"
+            id="1"
+            name="rateStars"
+            checked
+            aria-label="Одна звезда"
+            value="1"
+          />
+          <input
+            class="rating__star-input"
+            type="radio"
+            id="2"
+            name="rateStars"
+            aria-label="Две звезды"
+            value="2"
+          />
+          <input
+            class="rating__star-input"
+            type="radio"
+            id="3"
+            name="rateStars"
+            aria-label="Три звезды"
+            value="3"
+          />
+          <input
+            class="rating__star-input"
+            type="radio"
+            id="4"
+            name="rateStars"
+            aria-label="Четыре звезды"
+            value="4"
+          />
+          <input
+            class="rating__star-input"
+            type="radio"
+            id="5"
+            name="rateStars"
+            aria-label="Пять звезд"
+            value="5"
+          />
+        </div>
+      </fieldset>
+      <a class="link-to-index" href="/index.html">Вернуться на главную</a>
+    </div>
+  </body>
+</html>
